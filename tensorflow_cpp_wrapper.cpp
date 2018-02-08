@@ -1,4 +1,4 @@
-#include "tensorflow_c_wrapper.hpp"
+#include "tensorflow_cpp_wrapper.hpp"
 #include <fstream>
 #include <iostream>
 #include <stdexcept>

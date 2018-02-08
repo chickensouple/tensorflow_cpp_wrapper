@@ -30,6 +30,8 @@ public:
      * Example: "layer1/weights" or "layer1/weights:0"
      * The opname you use here will be the same you use later in run()
      * 
+     * This wrapper can not currently handle variable size inputs.
+     * 
      * @param opname
      * @param shape shape of the input
      */

@@ -6,9 +6,6 @@
 #include <iostream>
 #include "tensorflow_cpp_wrapper.hpp"
 
-// Much of this code comes from
-// https://stackoverflow.com/questions/44305647/segmentation-fault-when-using-tf-sessionrun-to-run-tensorflow-graph-in-c-not-c
-
 int main() {
     printf("Hello from TensorFlow C library version %s\n", TF_Version());
 
