@@ -1,3 +1,6 @@
+#ifndef TENSORFLOW_GRAPH_WRAPPER_HPP_
+#define TENSORFLOW_GRAPH_WRAPPER_HPP_
+
 #include <tensorflow/c/c_api.h>
 #include <cstdint>
 
@@ -114,3 +117,4 @@ private:
 };
 
 
+#endif /* #define TENSORFLOW_GRAPH_WRAPPER_HPP_ */
